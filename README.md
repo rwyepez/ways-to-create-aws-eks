@@ -1,6 +1,6 @@
 # AWS EKS Cluster Configuration Project
 
-This project contains three different methods for creating an AWS EKS cluster. Each method has its own folder and its own README file with detailed instructions.
+This project contains four different methods for creating an AWS EKS cluster. Each method has its own folder and its own README file with detailed instructions.
 
 ## Available Methods
 
@@ -13,6 +13,9 @@ This project contains three different methods for creating an AWS EKS cluster. E
 3. **Terraform**
    - [Instructions with Terraform](./terraform/README.md)
 
+4. **Cloudformation**
+   - [Instructions with Cloudformation](./cloudformation/README.md)
+
 ## General Description
 
 ### Manual
@@ -23,6 +26,9 @@ eksctl is a simple command-line tool for creating and managing EKS clusters on A
 
 ### Terraform
 Terraform is an infrastructure as code tool that allows you to define and manage EKS clusters using configuration files. This method is ideal for those looking for automation and control in their deployments.
+
+### Cloudformation
+Cloudformation is an infrastructure as code tool that allows you to define and manage EKS clusters using configuration files. This method is ideal if your main cloud provider is AWS.
 
 ## Prerequisites
 
