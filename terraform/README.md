@@ -34,3 +34,14 @@
 4. **Apply the Terraform Plan**:
     ```sh
     terraform apply -var-file="values.tfvars"
+
+## Step 5: Update Kubeconfig
+   - Update the kubeconfig file to use the newly created cluster:
+     ```sh
+     aws eks update-kubeconfig --name mycluster --region us-east-1
+     ```
+
+## Step 6: Destroy infrastructure
+   - Destroy:
+     ```sh
+    terraform destroy -var-file="values.tfvars"
