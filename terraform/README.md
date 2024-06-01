@@ -38,7 +38,7 @@
 ## Step 5: Update Kubeconfig
    - Update the kubeconfig file to use the newly created cluster:
      ```sh
-     aws eks update-kubeconfig --name mycluster --region us-east-1
+     aws eks update-kubeconfig --name my-cluster --region us-east-1
      ```
 
 ## Step 6: Destroy infrastructure
